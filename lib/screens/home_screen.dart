@@ -10,16 +10,34 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Liquid Galaxy'),
+        backgroundColor: Colors.black,
+        title: Text(
+          'Liquid Galaxy',
+          style: TextStyle(
+              fontFamily: 'Montserrat',
+              fontWeight: FontWeight.w500,
+              fontSize: 26),
+        ),
         centerTitle: true,
       ),
       body: Container(
-        child: Center(
-          child: Image.asset(
-            'assets/images/lglogo.png',
-            width: 300,
-          ),
-        ),
+        padding: EdgeInsets.symmetric(horizontal: 30),
+        child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Hero(
+                tag: 'hero-logo',
+                child: Image.asset(
+                  'assets/images/lglogo_crop.png',
+                  width: 300,
+                ),
+              ),
+              Image.asset(
+                'assets/images/lglogo_text.png',
+                width: 300,
+              ),
+            ]),
       ),
       bottomNavigationBar: GestureDetector(
         onTap: () {
