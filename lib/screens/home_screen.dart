@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
           style: TextStyle(
               fontFamily: 'Montserrat',
               fontWeight: FontWeight.w500,
-              fontSize: 26),
+              fontSize: 21),
         ),
         centerTitle: true,
       ),
