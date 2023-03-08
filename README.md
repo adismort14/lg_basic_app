@@ -2,15 +2,7 @@
 
 A basic app for Liquid Galaxy.
 
-## Getting Started
+## Description
 
-This project is a starting point for a Flutter application.
+This basic app contains 2 screens containing the logo and 4 buttons. The app demo and the code explanation is present in the google drive link that has been shared in the mail.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
